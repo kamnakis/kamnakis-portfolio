@@ -1,0 +1,16 @@
+.project {
+  opacity: 0;
+}
+
+.animateIn {
+  animation: fadeIn 500ms forwards;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

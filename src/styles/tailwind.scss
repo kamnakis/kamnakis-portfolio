@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./settings";
+@import "./base";
+@import "./aboutSection";
+@import "./contactSection";
+@import "./footer";
+@import "./header";
+@import "./navbar";
+@import "./portfolio";
+@import "./project";
+@import "./projectSection";
+@import "./sidenav";
