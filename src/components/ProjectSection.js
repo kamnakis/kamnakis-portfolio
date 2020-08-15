@@ -17,16 +17,16 @@ function ProjectSection() {
       github: 'https://github.com/kamnakis/chat-app',
     },
     {
+      title: 'Task Manager',
+      imgUrl: './assets/images/projects/task-manager.png',
+      link: 'https://kamnakis.github.io/task-manager/',
+      github: 'https://github.com/kamnakis/task-manager',
+    },
+    {
       title: 'Weather App',
       imgUrl: './assets/images/projects/weather-app.png',
       link: 'https://kamnakis-weather-app.herokuapp.com/',
       github: 'https://github.com/kamnakis/weather-app',
-    },
-    {
-      title: 'Task Manager API',
-      imgUrl: './assets/images/projects/task-manager-app.jpg',
-      link: 'https://kamnakis-task-manager.herokuapp.com/',
-      github: 'https://github.com/kamnakis/task-manager-api',
     }
   ]);
 
@@ -57,12 +57,12 @@ function ProjectSection() {
             projects.slice(0, projectsToShow).map(project => <Project key={project.title} details={project} />)
           }
         </div>
-        
+
         {
-        projects.length > 3 &&
-        <div className="w-full flex justify-center mt-12">
-          <button ref={showBtn} className="transition-transform duration-200 ease-in-out transform hover:scale-105 hover:shadow-lg border border-black px-20 py-1 rounded-lg text-xl lg:text-3xl tracking-widest" onMouseDown={showMoreProjects}>show all</button>
-        </div>
+          projects.length > 3 &&
+          <div className="w-full flex justify-center mt-12">
+            <button ref={showBtn} className="transition-transform duration-200 ease-in-out transform hover:scale-105 hover:shadow-lg border border-black px-20 py-1 rounded-lg text-xl lg:text-3xl tracking-widest" onMouseDown={showMoreProjects}>show all</button>
+          </div>
         }
       </div>
     </div>
