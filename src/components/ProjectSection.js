@@ -6,7 +6,7 @@ function ProjectSection() {
   const [projects] = useState([
     {
       title: 'Indecision App',
-      imgUrl: './assets/images/projects/indecision-app.jpg',
+      imgUrl: './assets/images/projects/indecision-app.png',
       link: 'https://kamnakis-indecision-app.herokuapp.com/',
       github: 'https://github.com/kamnakis/indecision-app',
     },
