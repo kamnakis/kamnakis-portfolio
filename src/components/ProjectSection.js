@@ -5,6 +5,12 @@ import { scrollToTargetAdjusted } from '../utilities/utils'
 function ProjectSection() {
   const [projects] = useState([
     {
+      title: 'Task Manager',
+      imgUrl: './assets/images/projects/task-manager.png',
+      link: 'https://kamnakis.github.io/kamnakis-task-manager/',
+      github: 'https://github.com/kamnakis/kamnakis-task-manager',
+    },
+    {
       title: 'Indecision App',
       imgUrl: './assets/images/projects/indecision-app.png',
       link: 'https://kamnakis-indecision-app.herokuapp.com/',
@@ -15,12 +21,6 @@ function ProjectSection() {
       imgUrl: './assets/images/projects/chat-app.png',
       link: 'https://kamnakis-chat-app.herokuapp.com/',
       github: 'https://github.com/kamnakis/chat-app',
-    },
-    {
-      title: 'Task Manager',
-      imgUrl: './assets/images/projects/task-manager.png',
-      link: 'https://kamnakis.github.io/task-manager/',
-      github: 'https://github.com/kamnakis/task-manager',
     },
     {
       title: 'Weather App',
