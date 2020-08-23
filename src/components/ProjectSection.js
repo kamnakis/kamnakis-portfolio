@@ -11,6 +11,12 @@ function ProjectSection() {
       github: 'https://github.com/kamnakis/kamnakis-task-manager',
     },
     {
+      title: 'Kamnakis Portfolio',
+      imgUrl: './assets/images/projects/kamnakis-portfolio.png',
+      link: 'https://kamnakis.herokuapp.com/',
+      github: 'https://github.com/kamnakis/kamnakis-portfolio',
+    },
+    {
       title: 'Indecision App',
       imgUrl: './assets/images/projects/indecision-app.png',
       link: 'https://kamnakis-indecision-app.herokuapp.com/',
