@@ -23,7 +23,7 @@ function AboutSection() {
             <img className="h-16 w-16 transform hover:scale-110 transition-transform duration-200 ease-in-out" src="./assets/images/icons/react-js.svg" alt="react" title="react"/>
             <img className="h-16 w-16 transform hover:scale-110 transition-transform duration-200 ease-in-out" src="./assets/images/icons/node-js.svg" alt="nodejs" title="nodejs"/>
             <img className="h-16 w-16 transform hover:scale-110 transition-transform duration-200 ease-in-out" src="./assets/images/icons/expressjs.svg" alt="expressjs" title="expressjs"/>
-            <img className="h-16 w-16 transform hover:scale-110 transition-transform duration-200 ease-in-out" src="./assets/images/icons/mongodb.svg" alt="mongodb" title="mongodb" />
+            <img className="h-16 w-16 transform hover:scale-110 transition-transform duration-200 ease-in-out" src="./assets/images/icons/postgresql.svg" alt="postgresql" title="postgresql" />
           </div>
         </div>
       </div>
