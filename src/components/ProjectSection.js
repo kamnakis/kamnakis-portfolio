@@ -17,6 +17,12 @@ function ProjectSection() {
       github: 'https://github.com/kamnakis/kamnakis-portfolio',
     },
     {
+      title: 'The Gallery',
+      imgUrl: './assets/images/projects/the-gallery.png',
+      link: 'https://kamnakis.github.io/the-gallery/',
+      github: 'https://github.com/kamnakis/the-gallery',
+    },
+    {
       title: 'Indecision App',
       imgUrl: './assets/images/projects/indecision-app.png',
       link: 'https://kamnakis-indecision-app.herokuapp.com/',

@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 function Portfolio() {
   return (
-    <div className="relative">
+    <div className="relative bg-gray-300">
 
       {/* <div className="fixed opacity-75 top-0 left-0 m-10 text-5xl bg-white rounded-xl w-20 h-20 flex justify-center items-center text-gray-900 z-50">
         <h1 className="sm:hidden">0</h1>

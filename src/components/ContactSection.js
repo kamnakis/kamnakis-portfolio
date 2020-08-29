@@ -5,8 +5,8 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function ContactSection() {
   return (
-    <div id="contact" className="relative mb-10">
-      <div className="contactTopBackground w-full h-40 mt-12" style={{ backgroundImage: `url(./assets/images/svg/angles.svg)`}}></div>
+    <div id="contact" className="relative mb-10 mt-10">
+      {/* <div className="contactTopBackground w-full h-40 mt-12" style={{ backgroundImage: `url(./assets/images/svg/angles.svg)` }}></div> */}
       <div className="w-full bg-primary">
         <div className="w-3/4 mx-auto flex justify-center pt-8 pb-24">
           <div className="w-full flex flex-col text-white items-center">
@@ -28,8 +28,8 @@ function ContactSection() {
           </div>
         </div>
       </div>
-      <div className="contactBotBackground w-full h-40" style={{ backgroundImage: `url(./assets/images/svg/angles.svg)`}}></div>
-    </div>
+      <div className="contactBotBackground w-full h-40" style={{ backgroundImage: `url(./assets/images/svg/angles.svg)` }}></div>
+    </div >
   );
 }
 
